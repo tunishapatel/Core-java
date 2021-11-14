@@ -14,11 +14,12 @@ public class Area {
 
     }
 }
-    class Main {
-        public static void main(String[] args) {
-            Area rectangle = new Area(7, 9);
-            rectangle.getArea();
-        }
-    }
+// create a main class
 
+class Main {
+    public static void main(String[] args) {
+        Area rectangle = new Area(7, 9);
+        rectangle.getArea();
+    }
+}
 
