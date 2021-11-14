@@ -4,14 +4,18 @@ public class AnimalInheritance {
         System.out.println("eating...");
     }
 }
-    class Dog extends AnimalInheritance{
-        void bark(){System.out.println("barking...");}
+// Create a sub class Dog
+class Dog extends AnimalInheritance {
+    void bark() {
+        System.out.println("barking...");
     }
-    class  TestInheritance{
-        public static void main(String[] args){
-            Dog d = new Dog();
-            d.bark();
-            d.eat();
-        }
+}
+// Create a class called TestInheritance 
+class TestInheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.bark();
+        d.eat();
     }
+}
 
