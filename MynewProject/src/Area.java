@@ -7,7 +7,7 @@ public class Area {
         this.length = length;
         this.breadth = breadth;
     }
-
+// Calculate the area 
     public void getArea() {
         int area = length * breadth;
         System.out.println("Area: " + area);
