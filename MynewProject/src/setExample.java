@@ -27,25 +27,25 @@ public class setExample {
                 55
         };
 
-        // Creating set
+// Creating set
         Set < Integer > set1 = new HashSet < Integer > ();
         set1.addAll(Arrays.asList(A));
         Set < Integer > set2 = new HashSet < Integer > ();
         set2.addAll(Arrays.asList(B));
 
-        // Finding Union of set1 and set2
+// Finding Union of set1 and set2
         Set < Integer > union_data = new HashSet < Integer > (set1);
         union_data.addAll(set2);
         System.out.print("Union of set1 and set2 is:");
         System.out.println(union_data);
 
-        // Finding Intersection of set1 and set2
+// Finding Intersection of set1 and set2
         Set < Integer > intersection_data = new HashSet < Integer > (set1);
         intersection_data.retainAll(set2);
         System.out.print("Intersection of set1 and set2 is:");
         System.out.println(intersection_data);
 
-        // Finding Difference of set1 and set2
+// Finding Difference of set1 and set2
         Set < Integer > difference_data = new HashSet < Integer > (set1);
         difference_data.removeAll(set2);
         System.out.print("Difference of set1 and set2 is:");
