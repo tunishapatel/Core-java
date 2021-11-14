@@ -11,7 +11,7 @@ public class Employee {
         this.emp_name = emp_name;
         this.age = age;
     }
-    //getter setter method
+//getter setter method
     public int getEmp_id(int emp_id){
         return emp_id;
     }
